@@ -35,9 +35,29 @@
   color: white;
   font-weight: 800;
   padding: 12px 36px;
-  border: none;
+  border: 1px solid #4E47FF;
   border-radius: 10px;
   cursor: pointer;
+}
+
+.btn-animation-side:hover {
+  padding: 12px 100px;
+  transition: all ease-in 0.5s;
+}
+
+.btn-animation-side:active {
+  background-color:#201c8d
+}
+
+.btn-animation-bg:hover {
+  background-color: white;
+  color: #4E47FF;
+  border: 1px solid #4E47FF;
+  transition: all ease 0.5s;
+}
+
+.btn-animation-bg:active {
+  color: #231dc8;
 }
 
 /* header styles */
@@ -252,10 +272,6 @@ main section {
   outline: none;
 }
 
-.btn-contact-submit {
-  padding: 20px 100px;
-}
-
 /* footer styles */
 .footer {
   margin-bottom: 100px;
@@ -263,7 +279,7 @@ main section {
 
 .footer-content {
   max-width: 500px;
-  margin: 20px auto;
+  margin: 30px auto;
   text-align: center;
 }
 
@@ -291,4 +307,8 @@ main section {
 .footer ul li a {
   text-decoration: none;
   color: rgba(137, 135, 161, 1);
+}
+
+.footer ul li a:hover {
+  color: rgb(73, 71, 89);
 }

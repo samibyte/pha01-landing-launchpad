@@ -230,6 +230,35 @@ main section {
   color: rgba(179, 179, 179, 1);
 }
 
+/* preview section styles */
+
+.preview-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  background-color: white;
+  border-radius: 15px;
+  padding: 70px 150px;
+}
+
+.preview-title {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.preview-subtitle {
+  color: rgba(0, 0, 0, 0.5)
+}
+.preview-btn:hover {
+  padding: 12px 200px;
+}
+
+.preview-img {
+  width: 900px;
+  border-radius: 50px;
+}
+
 /* contact section styles */
 .contact-section {
   display: flex;

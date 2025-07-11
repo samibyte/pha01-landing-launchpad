@@ -146,3 +146,49 @@ main section {
   font-size: 20px;
   color: rgba(0, 0, 0, 0.5);
 }
+
+/* contact section styles */
+.contact-section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.contact-title {
+  font-size: 100px;
+  font-size: bold;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 600px;
+  margin: 70px 0;
+}
+
+.contact-form label {
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.contact-form input, .contact-form textarea {
+  font-size: 20px;
+  padding: 20px 30px;
+  margin-bottom: 20px;
+  border: 1px solid rgba(214, 221, 237, 1);
+  border-radius: 10px;
+}
+
+.contact-form input::placeholder { /* applied only to placholder text color */
+  color: rgba(0, 0, 0, 0.5); 
+}
+
+.contact-form input:focus, .contact-form textarea:focus {
+  outline: none;
+}
+
+.btn-contact-submit {
+  padding: 20px 100px;
+}

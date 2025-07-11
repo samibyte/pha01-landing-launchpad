@@ -149,6 +149,67 @@ main section {
   color: rgba(0, 0, 0, 0.5);
 }
 
+/* User Feedback section styles */
+.feedback-section {
+  text-align: center;
+}
+
+.feedback-section-title {
+  font-size: 42px;
+  font-weight: bold;
+  color: rgba(37, 36, 50, 1);
+  margin-bottom: 50px;
+}
+.feedback-card-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.feedback-card {
+  width: 400px;
+  background-color: rgba(255, 255, 255, 0.5);
+  border: 1px solid rgba(242, 237, 237, 1);
+  border-radius: 15px;
+  padding: 24px;
+  text-align: left;
+}
+.star-icon {
+  margin-bottom: 24px;
+}
+
+.feedback-content {
+  width: 300px;
+  margin-bottom: 24px;
+}
+
+.feedback-title {
+  color: rgba(30, 30, 30, 1);
+  margin-bottom: 10px;
+}
+
+.feedback-subtitle {
+  color: rgba(30, 30, 30, 1);
+}
+.feedback-post-info {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.user-pfp {
+  border-radius: 50px;
+}
+
+.user-name {
+  color: rgba(117, 117, 117, 1);
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.feedback-date {
+  color: rgba(179, 179, 179, 1);
+}
+
 /* contact section styles */
 .contact-section {
   display: flex;
